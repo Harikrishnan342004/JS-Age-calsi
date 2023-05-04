@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Age Calculator </h1>
+   
 
     <main class="Container">
-
+        <h1> Age Calculator </h1>
         <div class="input">
                       <!--  BIRTH-DATE   -->
-            <label for="birthday" > Enter Your Birth-date :</label>
-            <input type="date" id="birthdate">
+            <label for="birthday"  class="input-box" > Enter Your Birth-date :</label>
+            <input type="date" id="birthdate" class="input-box">
 
         </div>
 
@@ -24,7 +24,7 @@
 
         <ul>
 
-            <li> <span id="years"></span> </li>
+            <li> <span id="years"> hhhh</span> </li>
             <li> <span id="months"></span> </li>
             <li> <span id="days"></span> </li>
             <li> <span id="hours"></span> </li>
@@ -37,8 +37,8 @@
         <!-- BUTTONS -->
 
         <div class="btns">
-            <button onclick="calculate()"> Calculate </button>
-            <button onclick="reset()"> Reset</button>
+            <button onclick="calculate()" class="leftbtn"> Calculate </button>
+            <button onclick="reset()" class="rightbtn"> Reset</button>
         </div>
 
 
