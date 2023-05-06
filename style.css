@@ -64,6 +64,8 @@ li
   
     
 }
+ 
+
 
 button
 {
@@ -72,4 +74,23 @@ button
 
     border-radius: 3px;
 }
+
+
+
+@media only  screen and (max-width: 600px)
+{
+  .btns
+  {
+  
+    width: 350px;
+  }
+  .Container
+
+{
+   
+     height: 100vh;
+    
+}
+}
+   
 
